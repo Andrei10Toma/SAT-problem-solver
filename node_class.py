@@ -1,5 +1,7 @@
-# TODO: data will save the clause list
 class Node:
+    """
+        data is saving the clause list
+    """
     def __init__(self, data):
         self.left = None
         self.right = None
@@ -10,9 +12,6 @@ class Node:
 
     def set_right(self, right_node):
         self.right = right_node
-
-    def set_data(self, data):
-        self.data = data
 
     def __str__(self):
         return str(self.data)
