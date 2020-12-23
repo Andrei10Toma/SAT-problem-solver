@@ -1,7 +1,4 @@
 class Node:
-    """
-        data is saving the clause list
-    """
     def __init__(self, data):
         self.left = None
         self.right = None
